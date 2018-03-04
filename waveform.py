@@ -58,5 +58,7 @@ for item in max_array:
 
     current_x = current_x + LINE_WIDTH
 
-im.show()
+#im.show()
+im.save('out.bmp')
+
 
